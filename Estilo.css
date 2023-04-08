@@ -1,0 +1,79 @@
+.tri{
+	font-family: games;
+	font-size: 35px;
+	color: white;
+}
+body{
+	font-family: gameplay;
+	font-size: 35px;
+	color: transparent;
+	background-image: url(iron.jpg);
+	background-attachment: fixed;
+	background-position: top center;
+}
+.respuesta{
+	border-style: outset;
+	border-width: 40px;
+	border-color: gray;
+	font-family: gameplay;
+	font-size: 35px;
+	color: yellow;
+	padding: 75px;
+	
+	text-shadow: 5px 5px 7px white;
+	-webkit-text-stroke: 1.5px black;
+}
+.ingreso input{
+	border-style: outset;
+	border-color: gray;
+	border-width: 20px;
+	padding: 20px;
+	background: none;
+	color: white;
+
+}
+.ingreso{
+	border-style: outset;
+	border-color: gray;
+	border-width: 20px;
+	padding: 20px;
+	background-image: url();
+	-webkit-text-stroke: 1.5px blue;
+	text-shadow: 5px 5px 7px white;
+	align-items: center;
+	
+	color: white;
+}
+.boton{
+	font-size: 25px;
+	font-family: games;
+	cursor: pointer;
+	color: white;
+	-webkit-text-stroke: 1px blue;
+}
+.titulo{
+	text-align:  center;
+	text-shadow: 5px 5px 7px gray;
+	-webkit-text-stroke: 1px blue;
+}
+.menu li{
+	display: inline-block;
+	text-align: center;
+}
+.menu li a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+	display: block;
+}
+.menu li a:hover{
+	background: #ef8354;
+}
+.menu{
+	list-style: none;
+	padding: 0;
+	background: none;
+	width: 1000%;
+	max-width: 1000px;
+	margin: auto;
+}	
